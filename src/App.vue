@@ -1,19 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <Viewer v-bind:initParams="initParams" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Viewer from "./components/Viewer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Viewer,
+  },
+  data() {
+    return {
+      initParams: {
+        assetId: "406bd3c3-f3b4-4af9-9b5f-64e69cfbdd3f",
+        authToken: process.env.VUE_APP_THREEKIT_AUTH_TOKEN,
+        showAR: true,
+        showConfigurator: true,
+      },
+    };
+  },
+};
 </script>
 
 <style>
