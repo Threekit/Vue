@@ -7,7 +7,6 @@ export default {
   name: "Theekit-Player",
   props: ["initParams"],
   mounted() {
-    console.log("this", this);
     window
       .threekitPlayer({
         ...this.initParams,
