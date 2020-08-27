@@ -9,7 +9,7 @@ git clone https://github.com/Threekit/Vue.git my-app
 cd my-app
 npm install
 mv _.env.local .env.local
-npm serve
+npm run serve
 ```
 
 with yarn
