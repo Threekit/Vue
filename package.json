@@ -1,12 +1,9 @@
 {
-  "name": "vue",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
@@ -21,7 +18,6 @@
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
-    "root": true,
     "env": {
       "node": true
     },
@@ -32,11 +28,28 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
+    "root": true,
     "rules": {}
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "keywords": [
+    "3D Configuration",
+    "3D",
+    "AR",
+    "Augmented Reality",
+    "gltf",
+    "Product Configuration",
+    "Product Customization",
+    "ThreeJS",
+    "usdz",
+    "Vue"
+  ],
+  "name": "vue",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "tags": [],
+  "version": "0.1.0"
 }
