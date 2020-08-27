@@ -47,6 +47,7 @@
     "Vue",
     "WebGl"
   ],
+  "license": "MIT",
   "name": "vue",
   "private": true,
   "scripts": {
