@@ -12,7 +12,7 @@ mv _.env.local .env.local
 npm run serve
 ```
 
-with yarn
+_with yarn_
 
 ```
 git clone https://github.com/Threekit/Vue.git my-app
